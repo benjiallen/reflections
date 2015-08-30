@@ -1,0 +1,51 @@
+# Reflections
+
+## How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I could quickly see what was changed between the old, working file and the new, broken file.
+
+Once I had determined the differences I could inspect them for errors. The typo was easy to spot.
+
+## How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+* You can see how the code has evolved over time
+* You can see how your style has evolved
+* You can see how the complexity has evolved
+
+## What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of automatically saving:
+
+* You don't lose work by forgetting to save
+
+Cons of automatically saving:
+
+* No logic to the save points. You could be saving at a random point and have none working code
+
+## Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Code is fairly unique in that there are dependencies between files. People would usually use Google Docs to work on independent files so keeping a version history of just that file would make sense in this use case.
+
+## Helpful notes
+
+git diff <old-commit> <new-commit>
+
+I find it a lot easier to understand if I enter the old commit first then the new commit. Think about it as "what did I change from this version (old) to get this version (new)"
+
+## How can you use the commands git log and git diff to view the history of files?
+
+Git log can show you all the commits and the comments associated with them. You can see your save points. It let's you review your history of saves.
+
+Git diff let's you compare commits so you can see what changed between commits.
+
+## How might using version control make you more confident to make changes that could break something?
+
+You know that you can always go back to a version which was working and you can also use diff to track down the error.
+
+## Now that you have your workspace set up, what do you want to try using Git for?
+
+* Best man speech
+* Requirements writing at work
+* Writing my own code
+* Teaching others how to use git
+* Teaching others how to write code
