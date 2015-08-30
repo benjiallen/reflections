@@ -8,3 +8,7 @@
 * The staging area is different from the working directory because the staging area is just the files that git is tracking. The working directory might contain many other files but git is only tracking those files that are in the staging directory.
 * Value: 
     - helps keep things better organized. You're only tracking the history of the files you care about.
+
+## How can you use the staging area to make sure you have one commit per logical change?
+
+Add files you're working on to the staging area. Providing the files you're working on represent a "logical change" then your staging area will be ready for a commit to the repo.
