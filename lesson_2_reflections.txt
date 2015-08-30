@@ -1,0 +1,4 @@
+## What happens when you initialize a repository? Why do you need to do it?
+
+* When you initialize you are letting git know about the files/folders that you might be interested in tracking.
+* You have to start somewhere! You need to do it so that you can run the git commands over the files that you wish to track.
