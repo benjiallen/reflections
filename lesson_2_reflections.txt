@@ -12,3 +12,11 @@
 ## How can you use the staging area to make sure you have one commit per logical change?
 
 Add files you're working on to the staging area. Providing the files you're working on represent a "logical change" then your staging area will be ready for a commit to the repo.
+
+## What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches could be useful when you are working on an experimental feature and you don't want to break your program. You create a branch and play with that branch until you've got everything working and then merge the change back in.
+
+### Note
+
+I need to revisit the git diff lesson. Need to remember what git diff with no arguments is doing.
