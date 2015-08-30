@@ -20,3 +20,8 @@ Branches could be useful when you are working on an experimental feature and you
 ### Note
 
 I need to revisit the git diff lesson. Need to remember what git diff with no arguments is doing.
+
+## How do the diagrams help you visualize the branch structure?
+
+Diagrams help you visualize the parent of each commit, the reachability of commits and whether a commit is within a branch.
+
