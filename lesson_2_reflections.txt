@@ -2,3 +2,9 @@
 
 * When you initialize you are letting git know about the files/folders that you might be interested in tracking.
 * You have to start somewhere! You need to do it so that you can run the git commands over the files that you wish to track.
+
+## How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+* The staging area is different from the working directory because the staging area is just the files that git is tracking. The working directory might contain many other files but git is only tracking those files that are in the staging directory.
+* Value: 
+    - helps keep things better organized. You're only tracking the history of the files you care about.
