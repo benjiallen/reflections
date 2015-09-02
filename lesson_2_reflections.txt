@@ -25,3 +25,8 @@ I need to revisit the git diff lesson. Need to remember what git diff with no ar
 
 Diagrams help you visualize the parent of each commit, the reachability of commits and whether a commit is within a branch.
 
+## What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When you merge a branch into the master branch you are creating another commit and merging the changes from the feature branch into the master branch.
+
+The diagram shows the divergence in the code and then the convergence of the code.
