@@ -30,3 +30,16 @@ Diagrams help you visualize the parent of each commit, the reachability of commi
 When you merge a branch into the master branch you are creating another commit and merging the changes from the feature branch into the master branch.
 
 The diagram shows the divergence in the code and then the convergence of the code.
+
+## What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros:
+
+* Time saving. You should be able to do merges quicker
+* When there is a conflict you can clearly see it. You don't have to do lots of comparison
+
+Cons: 
+
+* Cannot handle all cases hence conflicts
+* Can get merge conflicts which you then have to resolve
+* Manual merge should be very reliable assuming communication is good and you can track changes with diff
