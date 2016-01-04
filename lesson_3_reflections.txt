@@ -1,5 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
+* Backup!
+* When you want to collaborate with others.
+* When you want to show the world your work.
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 * Someone may have updated the repo on Github. If you automatically update the local repo that you're working on then you might get changes that you weren't ready for. In other words, your code could break because your program has a change in it that you were not expecting. Keeping track of work would be difficult. You would have a mix of changes that you're making and changes that other contributors are making.
