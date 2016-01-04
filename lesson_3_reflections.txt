@@ -17,3 +17,10 @@
     - Clone a repo when you want a copy of a git repo. For example, cloning from github.com. You can also clone locally. You might want to clone instead of branch because you know you're going to take the work in a completely different direction.
 * Branches
     - Branch your work when you have a new idea that you want to work on. While you're working on the new idea you don't break the master branch.
+
+## What is the benefit of having a copy of the last known state of the remote stored locally?
+
+* You can work out how far in front or behind you are with the remote
+    - This might prompt you to push to remote
+
+Tough question. Will need to give this more thought.
