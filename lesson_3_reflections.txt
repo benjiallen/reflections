@@ -24,3 +24,29 @@
     - This might prompt you to push to remote
 
 Tough question. Will need to give this more thought.
+
+## How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+This goes back to options discussed earlier in the course. Options could include:
+
+* Email + attachments
+    - Easier: 
+        + ???
+    - Harder:
+        + Keeping track of your changes and different versions of your project
+        + Collaborating with others
+        + Adding comments to changes
+        + Dealing with merge conflicts
+        + Branching
+* Google Drive
+    - Easier:
+        + If you're just editing Word-type documents then adding comments to the document would be easier
+        + Collaborating is also super easy
+    - Harder:
+        + Merge conflicts and overwriting each other's changes
+        + Keeping track of who changes what
+        + Branching
+* Dropbox
+    - Similar to email. Dropbox does support version history but it's not much better than email.
+* An alternative version control system that is not git or github
+    - May or may not have feature parity with git or github
