@@ -50,3 +50,12 @@ This goes back to options discussed earlier in the course. Options could include
     - Similar to email. Dropbox does support version history but it's not much better than email.
 * An alternative version control system that is not git or github
     - May or may not have feature parity with git or github
+
+## When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+* When to make changes on a branch rather than master
+    - I would use it when I'm working on something experimental and do not want to "break" the stable project present in the master branch
+    - It would also make sense to use branching when you're collaborating with others. It would keep my changes in a "neat" unit of work which my collarborators could evaluate before merging to the master branch.
+* When to change master directly
+    - When there is not any collaboration
+    - When you know your master branch is in an unstable state anyway. Perhaps you've just started a project and you're still forming a functioning product.
